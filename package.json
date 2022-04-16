@@ -1,0 +1,36 @@
+{
+  "name": "cache-mover-web",
+  "private": true,
+  "version": "1.0.0",
+  "author": {
+    "name": "Gizmo",
+    "email": "cunyu@liuli.lol"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GizmoOAO/vrchat-cache-mover-web"
+  },
+  "license": "AGPL-3.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vueuse/core": "^8.2.6",
+    "highlight.js": "^11.5.1",
+    "vue": "^3.2.25"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.24",
+    "@types/wicg-file-system-access": "^2020.9.5",
+    "@vicons/tabler": "^0.12.0",
+    "@vitejs/plugin-vue": "^2.3.1",
+    "naive-ui": "^2.28.0",
+    "typescript": "^4.5.4",
+    "unplugin-vue-components": "^0.19.3",
+    "vfonts": "^0.0.3",
+    "vite": "^2.9.2",
+    "vue-tsc": "^0.34.6"
+  }
+}
